@@ -88,28 +88,28 @@ describe('modulus', () => {
   });
 });
 
-describe('even', () => {
+describe('even/odd', () => {
   test('can check if number is even', () => {
-    expected = true;
+    expected = even;
     actual = even(48);
     expect(actual).toBe(expected);  
   });
-  test('can check if number is even', () => {
-    expected = false;
+  test('can check if number is e=odd', () => {
+    expected = odd;
     actual = even(33);
     expect(actual).toBe(expected);  
   });
 });
 
-describe('odd', () => {
-  test('can check if number is odd', () => {
-    expected = true;
-    actual = odd(99);
-    expect(actual).toBe(expected);  
-  });
-  test('can check if number is odd', () => {
-    expected = false;
-    actual = odd(72);
-    expect(actual).toBe(expected);  
-  });
-});
+// describe('odd', () => {
+//   test('can check if number is odd', () => {
+//     expected = true;
+//     actual = odd(99);
+//     expect(actual).toBe(expected);  
+//   });
+//   test('can check if number is odd', () => {
+//     expected = false;
+//     actual = odd(72);
+//     expect(actual).toBe(expected);  
+//   });
+// });

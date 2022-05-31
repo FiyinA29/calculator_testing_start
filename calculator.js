@@ -10,10 +10,10 @@ const modulus = (a, b) => a % b;
 
 const even = function(a) {
     if(a % 2 == 0) {
-        return(true);
+        return(even);
     }
     else {
-        return(false);
+        return(odd);
     }
 };
 
